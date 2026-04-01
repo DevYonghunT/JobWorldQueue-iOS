@@ -19,7 +19,8 @@ let package = Package(
             name: "JobWorldQueue",
             path: "Sources/JobWorldQueue",
             resources: [
-                .copy("PrivacyInfo.xcprivacy")
+                .copy("PrivacyInfo.xcprivacy"),
+                .process("Assets.xcassets")
             ]
         ),
         .testTarget(

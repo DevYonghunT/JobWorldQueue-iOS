@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000001 /* JobWorldQueueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000001 /* JobWorldQueueApp.swift */; };
+		A1000002 /* CareerHallData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000002 /* CareerHallData.swift */; };
+		A1000003 /* ChildrenHallData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000003 /* ChildrenHallData.swift */; };
+		A1000004 /* FutureHallData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000004 /* FutureHallData.swift */; };
+		A1000005 /* MakersHallData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000005 /* MakersHallData.swift */; };
+		A1000006 /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000006 /* ScheduleData.swift */; };
+		A1000007 /* SkillsHallData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000007 /* SkillsHallData.swift */; };
+		A1000008 /* YouthHallData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000008 /* YouthHallData.swift */; };
+		A1000009 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000009 /* Course.swift */; };
+		A1000010 /* ExperienceRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000010 /* ExperienceRoom.swift */; };
+		A1000011 /* Hall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000011 /* Hall.swift */; };
+		A1000012 /* RouteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000012 /* RouteItem.swift */; };
+		A1000013 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000013 /* Schedule.swift */; };
+		A1000014 /* RouteEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000014 /* RouteEngine.swift */; };
+		A1000015 /* RouteOptimizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000015 /* RouteOptimizer.swift */; };
+		A1000016 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000016 /* AppTheme.swift */; };
+		A1000017 /* ActiveRouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000017 /* ActiveRouteView.swift */; };
+		A1000018 /* HallCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000018 /* HallCard.swift */; };
+		A1000019 /* RouteItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000019 /* RouteItemCard.swift */; };
+		A1000020 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000020 /* TabBar.swift */; };
+		A1000021 /* TimelineBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000021 /* TimelineBar.swift */; };
+		A1000022 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000022 /* HomeView.swift */; };
+		A1000023 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000023 /* ProfileView.swift */; };
+		A1000024 /* RouteSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000024 /* RouteSetupView.swift */; };
+		A1000025 /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000025 /* TimetableView.swift */; };
+		A1000030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1000030 /* Assets.xcassets */; };
+		A1000031 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B1000031 /* PrivacyInfo.xcprivacy */; };
+		A2000001 /* RouteEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000001 /* RouteEngineTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1000001;
+			remoteInfo = JobWorldQueue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1000001 /* JobWorldQueueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobWorldQueueApp.swift; sourceTree = "<group>"; };
+		B1000002 /* CareerHallData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerHallData.swift; sourceTree = "<group>"; };
+		B1000003 /* ChildrenHallData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenHallData.swift; sourceTree = "<group>"; };
+		B1000004 /* FutureHallData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureHallData.swift; sourceTree = "<group>"; };
+		B1000005 /* MakersHallData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakersHallData.swift; sourceTree = "<group>"; };
+		B1000006 /* ScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
+		B1000007 /* SkillsHallData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsHallData.swift; sourceTree = "<group>"; };
+		B1000008 /* YouthHallData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouthHallData.swift; sourceTree = "<group>"; };
+		B1000009 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		B1000010 /* ExperienceRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceRoom.swift; sourceTree = "<group>"; };
+		B1000011 /* Hall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hall.swift; sourceTree = "<group>"; };
+		B1000012 /* RouteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteItem.swift; sourceTree = "<group>"; };
+		B1000013 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		B1000014 /* RouteEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteEngine.swift; sourceTree = "<group>"; };
+		B1000015 /* RouteOptimizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteOptimizer.swift; sourceTree = "<group>"; };
+		B1000016 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		B1000017 /* ActiveRouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveRouteView.swift; sourceTree = "<group>"; };
+		B1000018 /* HallCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallCard.swift; sourceTree = "<group>"; };
+		B1000019 /* RouteItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteItemCard.swift; sourceTree = "<group>"; };
+		B1000020 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		B1000021 /* TimelineBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineBar.swift; sourceTree = "<group>"; };
+		B1000022 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B1000023 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B1000024 /* RouteSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSetupView.swift; sourceTree = "<group>"; };
+		B1000025 /* TimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableView.swift; sourceTree = "<group>"; };
+		B1000030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1000031 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B2000001 /* RouteEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteEngineTests.swift; sourceTree = "<group>"; };
+		D1000099 /* JobWorldQueue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobWorldQueue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2000099 /* JobWorldQueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobWorldQueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G1000001 /* root */ = {
+			isa = PBXGroup;
+			children = (
+				G1000002 /* Sources */,
+				G1000010 /* Tests */,
+				G1000099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G1000002 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				G1000003 /* JobWorldQueue */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		G1000003 /* JobWorldQueue */ = {
+			isa = PBXGroup;
+			children = (
+				G1000004 /* App */,
+				G1000005 /* Data */,
+				G1000006 /* Models */,
+				G1000007 /* Services */,
+				G1000008 /* Theme */,
+				G1000009 /* Views */,
+				B1000030 /* Assets.xcassets */,
+				B1000031 /* PrivacyInfo.xcprivacy */,
+			);
+			path = JobWorldQueue;
+			sourceTree = "<group>";
+		};
+		G1000004 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B1000001 /* JobWorldQueueApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		G1000005 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B1000002 /* CareerHallData.swift */,
+				B1000003 /* ChildrenHallData.swift */,
+				B1000004 /* FutureHallData.swift */,
+				B1000005 /* MakersHallData.swift */,
+				B1000006 /* ScheduleData.swift */,
+				B1000007 /* SkillsHallData.swift */,
+				B1000008 /* YouthHallData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		G1000006 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1000009 /* Course.swift */,
+				B1000010 /* ExperienceRoom.swift */,
+				B1000011 /* Hall.swift */,
+				B1000012 /* RouteItem.swift */,
+				B1000013 /* Schedule.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		G1000007 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B1000014 /* RouteEngine.swift */,
+				B1000015 /* RouteOptimizer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		G1000008 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				B1000016 /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		G1000009 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				G1000009A /* Components */,
+				B1000017 /* ActiveRouteView.swift */,
+				B1000022 /* HomeView.swift */,
+				B1000023 /* ProfileView.swift */,
+				B1000024 /* RouteSetupView.swift */,
+				B1000025 /* TimetableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		G1000009A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B1000018 /* HallCard.swift */,
+				B1000019 /* RouteItemCard.swift */,
+				B1000020 /* TabBar.swift */,
+				B1000021 /* TimelineBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		G1000010 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				G1000011 /* JobWorldQueueTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		G1000011 /* JobWorldQueueTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2000001 /* RouteEngineTests.swift */,
+			);
+			path = JobWorldQueueTests;
+			sourceTree = "<group>";
+		};
+		G1000099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1000099 /* JobWorldQueue.app */,
+				D2000099 /* JobWorldQueueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1000001 /* JobWorldQueue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = X1000001 /* Build configuration list for PBXNativeTarget "JobWorldQueue" */;
+			buildPhases = (
+				S1000001 /* Sources */,
+				F1000001 /* Frameworks */,
+				R1000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JobWorldQueue;
+			productName = JobWorldQueue;
+			productReference = D1000099 /* JobWorldQueue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2000001 /* JobWorldQueueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = X2000001 /* Build configuration list for PBXNativeTarget "JobWorldQueueTests" */;
+			buildPhases = (
+				S2000001 /* Sources */,
+				F2000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1000002 /* PBXTargetDependency */,
+			);
+			name = JobWorldQueueTests;
+			productName = JobWorldQueueTests;
+			productReference = D2000099 /* JobWorldQueueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D1000001 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D2000001 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D1000001;
+					};
+				};
+			};
+			buildConfigurationList = X3000001 /* Build configuration list for PBXProject "JobWorldQueue" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ko;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+			);
+			mainGroup = G1000001 /* root */;
+			productRefGroup = G1000099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1000001 /* JobWorldQueue */,
+				D2000001 /* JobWorldQueueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		R1000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000030 /* Assets.xcassets in Resources */,
+				A1000031 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		S1000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001 /* JobWorldQueueApp.swift in Sources */,
+				A1000002 /* CareerHallData.swift in Sources */,
+				A1000003 /* ChildrenHallData.swift in Sources */,
+				A1000004 /* FutureHallData.swift in Sources */,
+				A1000005 /* MakersHallData.swift in Sources */,
+				A1000006 /* ScheduleData.swift in Sources */,
+				A1000007 /* SkillsHallData.swift in Sources */,
+				A1000008 /* YouthHallData.swift in Sources */,
+				A1000009 /* Course.swift in Sources */,
+				A1000010 /* ExperienceRoom.swift in Sources */,
+				A1000011 /* Hall.swift in Sources */,
+				A1000012 /* RouteItem.swift in Sources */,
+				A1000013 /* Schedule.swift in Sources */,
+				A1000014 /* RouteEngine.swift in Sources */,
+				A1000015 /* RouteOptimizer.swift in Sources */,
+				A1000016 /* AppTheme.swift in Sources */,
+				A1000017 /* ActiveRouteView.swift in Sources */,
+				A1000018 /* HallCard.swift in Sources */,
+				A1000019 /* RouteItemCard.swift in Sources */,
+				A1000020 /* TabBar.swift in Sources */,
+				A1000021 /* TimelineBar.swift in Sources */,
+				A1000022 /* HomeView.swift in Sources */,
+				A1000023 /* ProfileView.swift in Sources */,
+				A1000024 /* RouteSetupView.swift in Sources */,
+				A1000025 /* TimetableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		S2000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2000001 /* RouteEngineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1000001 /* JobWorldQueue */;
+			targetProxy = C1000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		Y1000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WPS7QNZV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "잡월드큐";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entangle.jobworldqueue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		Y1000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WPS7QNZV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "잡월드큐";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entangle.jobworldqueue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		Y2000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WPS7QNZV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entangle.jobworldqueue.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobWorldQueue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JobWorldQueue";
+			};
+			name = Debug;
+		};
+		Y2000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WPS7QNZV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entangle.jobworldqueue.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobWorldQueue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JobWorldQueue";
+			};
+			name = Release;
+		};
+		Y3000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		Y3000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		X1000001 /* Build configuration list for PBXNativeTarget "JobWorldQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				Y1000001 /* Debug */,
+				Y1000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		X2000001 /* Build configuration list for PBXNativeTarget "JobWorldQueueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				Y2000001 /* Debug */,
+				Y2000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		X3000001 /* Build configuration list for PBXProject "JobWorldQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				Y3000001 /* Debug */,
+				Y3000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = E1000001 /* Project object */;
+}
